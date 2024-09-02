@@ -1,0 +1,31 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class Project2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		System.out.println("User Information:");
+		var a = sc.nextByte();
+		var b = sc.nextShort();
+		var c = sc.nextInt();
+		var d = sc.nextLong();
+		var e = sc.nextFloat();
+		var f = sc.nextDouble();
+		var g = sc.next();
+		var h =  sc.nextBoolean();
+		var i = sc.next();
+		System.out.println("User Id : " + a);
+		System.out.println("Age : " + b);
+		System.out.println("Phone Number : " + c);
+		System.out.println("National Id : " + d);
+		System.out.println("Height : " + e +  "meters");
+		System.out.println("weight : " + f + "Kg");
+		System.out.println("Gender : " + g);
+		System.out.println("Married : " + h);
+		System.out.println("Name : " + i);
+	}
+
+}
