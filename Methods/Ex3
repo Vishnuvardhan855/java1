@@ -1,0 +1,20 @@
+package assignment;
+
+public class Ex3 {
+	public static void main(String[] args) {
+		float intrest = calculateSimpleIntrest();
+		System.out.println("calculted the simple Intrest is "+ intrest);
+		
+	}
+	public static float calculateSimpleIntrest( ) {
+		float principal = 1000.0f;
+		float rate = 5.0f;
+		int time = 2;
+		//return 0.0f;
+		float simpleIntrest = (principal * rate * time)/100;
+		return simpleIntrest;
+	
+	}
+
+}
+	
