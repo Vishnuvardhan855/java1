@@ -1,0 +1,17 @@
+package vishnu;
+
+public class Accessmodifier1 {
+	private int d = 10;
+	private void print(String s) {
+		System.out.println(s);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Accessmodifier1 w1 = new Accessmodifier1();
+		w1.print("vishnu");
+		System.out.println(w1.d);
+		
+	}
+
+}
