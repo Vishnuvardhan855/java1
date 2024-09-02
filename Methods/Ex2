@@ -1,0 +1,16 @@
+package assignment;
+
+public class Ex2 {
+	public static void main(String[] args) {
+		printSquare(4);
+		
+	}
+	public static int printSquare(int number) {
+		int integer=number*number;
+		System.out.println(integer);
+		return integer;
+		
+		
+	}
+
+}
