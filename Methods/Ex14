@@ -1,0 +1,20 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class Ex14 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		char a = sc.next().charAt(0);
+		char result = firstCharacter(a);
+		System.out.println(result);
+		
+	}
+	
+	public static char firstCharacter(char a) {
+		
+		return a;
+		
+	}
+
+}
