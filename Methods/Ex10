@@ -1,0 +1,12 @@
+package assignment;
+
+public class Ex10 {
+	public static void main(String[] args) {
+		float a = quotient(4f, 2f);
+		System.out.println(a);
+	}
+	
+	public static float quotient(float a,float b) {
+		return 4/2;
+	}
+}
