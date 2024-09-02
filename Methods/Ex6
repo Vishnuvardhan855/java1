@@ -1,0 +1,14 @@
+package assignment;
+
+public class Ex6 {
+	public static void main(String[] args) {
+		concatenate("hello", "world");
+	}
+	
+	public static String concatenate(String str1 ,String str2) {
+		System.out.println(str1 + str2);
+		return null;
+		
+	}
+
+}
