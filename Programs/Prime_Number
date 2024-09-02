@@ -1,0 +1,24 @@
+package assignment;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=33;
+	
+		System.out.println("enter the  number to bee checked");
+		if (n < 2) {
+			System.out.println("negative  numbers are not allowed");
+		}
+		for (int i=0;i<=n;i++) {
+			if (n%2==0) {
+				System.out.println("not a prime number");
+			}else {
+				System.out.println("is a  prime number"+ n);
+			}
+			
+		}
+
+	}
+
+}
