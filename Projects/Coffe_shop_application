@@ -1,0 +1,26 @@
+package assignment;
+
+public class Project {
+	
+	public static void orderCoffee() {
+		System.out.println("order a default coffee");
+	}
+	public static void orderCoffee(String type) {
+		System.out.println("order a "+ type + "coffee");
+	}
+	public static String orderCookie() {
+		return "Ordered a default cookie";
+	}
+	public static String orderCookie(String type) {
+		return "ordered a " + type + "cookie";
+	}
+	public static void main(String[] args) {
+		orderCoffee();
+		orderCoffee("Espresso");
+		var cookieOrder1 = orderCookie(); 
+		System.out.println(cookieOrder1);
+		var cookieOrder2 = orderCookie("Chocolate chip ");
+		System.out.println(cookieOrder2);
+	}
+	
+}
