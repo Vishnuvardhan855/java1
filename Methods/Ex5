@@ -1,0 +1,16 @@
+package assignment;
+
+public class Ex5 {
+
+	public static void main(String[] args) {
+		quotient(10, 5);
+	}
+	
+	public static float quotient(float divisor,float divident) {
+		float quotient = divisor/divident;
+		System.out.println(quotient);
+		return quotient;
+		
+	}
+
+}
