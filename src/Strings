@@ -1,0 +1,101 @@
+package vishnu;
+
+import java.util.Arrays;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "vishnu";
+		String s2 = new String("vishnu");
+		String s3 = "vishnu";
+		String s4 = new String("vishnu");
+		String s5 = "vardhan";
+		String s6 = new String("Vishnu");
+		System.out.println(s1);//vishnu
+		System.out.println(s2);//vishnu
+		
+		 //(==)operator is used to check whether the both string address is equal or not
+		System.out.println(s1==s2);//false
+		System.out.println(s1==s4);//false
+		System.out.println(s1==s3);//true
+		System.out.println(s2==s4);//false
+		System.out.println(s3==s5);//false
+	    //System.out.println(s1==s3&&s3==s5);//false
+		//System.out.println(s1==s3&&s3==s1);//true
+		
+		 //(.equals) operator is used to check whether the both strings text is equal or not
+		System.out.println(s1.equals(s5));//false
+		System.out.println(s1.equals(s3));//true
+		System.out.println(s1.equals(s2));//true
+		System.out.println(s1.equals(s4));//true
+		
+		//(.equalIgnoreCasee)is used to check if any character is not equal ,when both strings are compared it ignore the mistake and prints the true
+		System.out.println(s1.equalsIgnoreCase(s6));//true (it ignored the upper case char in the String s6 and prints true)
+		
+		//(.contains) is used to check the text  is present in the string..
+		System.out.println(s1.contains(s6));//false
+		System.out.println(s1.contains("Vi"));//false
+		System.out.println(s1.contains("vi"));//true
+		System.out.println(s1.contains(s3));//true
+		
+		//(startsWith)
+		System.out.println(s1.startsWith("vi"));//true
+		System.out.println(s1.startsWith("nu"));//false
+		
+		//(endsWith)
+		System.out.println(s1.endsWith("nu"));//true
+		
+		//(.length)
+		System.out.println(s1.length());
+		
+		//(trim.lenth)
+		String s7="  VISHNU  ";
+		System.out.println(s7.length());
+		System.out.println(s7.trim().length());
+		
+		//(toLowerCase)
+		System.out.println(s7.toLowerCase());
+		
+		//(toUpperCase)
+		System.out.println(s1.toUpperCase());
+		
+		//(toCharArray)
+		System.out.println(s7.toCharArray());
+		//char[] a = s7.toCharArray();	
+		
+		//(indexOf)
+		System.out.println(s1.indexOf("w"));
+		System.out.println(s1.indexOf("v"));
+		System.out.println(s1.lastIndexOf("u"));
+		
+		//(substring)
+		System.out.println(s1.substring(2));
+		System.out.println(s1.substring(1,4));
+		
+		//(split)
+		String s8 = "  welcome// back //vvishnu //vardhan";
+		String s9 = "  welcome back vishnu vardhan";
+		System.out.println(s8.split(" "));
+		System.out.println(Arrays.toString(s8.split("//")));
+		System.out.println(Arrays.toString(s9.split("")));
+		
+		//(charAt)
+		System.out.println(s1.charAt(5));
+		
+		//(replace)
+		System.out.println(s9.replace("v", "p"));
+		System.out.println(s9.replace("vishnu", "prabhas"));
+		
+		//(isEmpty)and (isBlank)
+		String s10 = "  ";
+		//String s11 ;
+		String s12="";
+		System.out.println(s10.length());
+		System.out.println(s10.isEmpty());
+		System.out.println(s12.isEmpty());
+		System.out.println(s12.isBlank());
+		System.out.println(s10.isBlank());	
+	}
+
+}
