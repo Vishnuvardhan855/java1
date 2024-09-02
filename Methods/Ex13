@@ -1,0 +1,18 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class Ex13 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		boolean a = sc.nextBoolean();
+		boolean result =  booleanValue(a);
+		System.out.println(result);
+	}
+	
+	public static boolean booleanValue(boolean value) {
+
+		return !value ;
+	}
+
+}
