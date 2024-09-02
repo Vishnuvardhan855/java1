@@ -1,0 +1,18 @@
+package assignment;
+
+public class Ex4 {
+	public static void main(String[] args) {
+		
+		getSum();
+	}
+	
+	public static int getSum() {
+		int sum1 = 10;
+		int sum2 = 10;
+		int sum = sum1+sum2;
+		System.out.println(sum);
+		return sum;
+		
+	}
+
+}
