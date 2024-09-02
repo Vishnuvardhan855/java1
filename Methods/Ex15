@@ -1,0 +1,11 @@
+package assignment;
+
+public class Methodassignment1 {
+	public static void main(String[] args) {
+		announeQuizTopic("Java Basics");
+	}
+	public static void announeQuizTopic(String topic) {
+		System.out.println("Welcome to the Quiz,Today topic is :" + topic);	
+	}
+	
+}
