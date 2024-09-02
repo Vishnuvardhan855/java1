@@ -1,0 +1,19 @@
+package assignment;
+
+public class Linearsearch {
+	public static void main(String[] args) {
+		int a[] = {10,30,20,50,40};
+		int search_element = 30;
+		for(int i=0;i<a.length;i++) {
+			//System.out.println(a[i]);
+			if(a[i]==search_element) {
+				System.out.println("Elemrnt fount at:"+i);
+				return ;
+			}
+			}
+		System.out.println("element not found");
+		}
+		
+	}
+
+
