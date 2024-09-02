@@ -1,0 +1,13 @@
+package assignment;
+
+public class Ex8 {
+	public static void main(String[] args) {
+		boolean a = getBooleanValue();
+		System.out.println(a);
+	}
+	public static boolean getBooleanValue() {
+		return false;
+		
+	}
+
+}
