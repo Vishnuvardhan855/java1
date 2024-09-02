@@ -1,0 +1,29 @@
+package assignment;
+
+public class BinarySearch1 {
+	public static void binarySearch1(int last,int arr[],int first,int key) {
+		while(first<=last) {
+			int mid = (first+last)/2;
+			if(arr[mid]==key) {
+				System.out.println("element found at:"+mid);
+			}
+			if(arr[mid]<key) {
+				first=mid+1;
+			}
+			if(arr[mid]>key) {
+				last=mid-1;
+				break;
+			} else {
+				System.out.println("element not found");
+			}
+		}
+		
+	}
+		public static void main(String[] args) {
+			int arr[]= {10,20,30,50,40,80,90,60};
+			int key=50;
+			int  last=arr.length-1;
+			binarySearch1(last,arr,0,key);
+		}
+}
+
