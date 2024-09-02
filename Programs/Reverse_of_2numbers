@@ -1,0 +1,23 @@
+package assignment;
+
+public class Reverseoftwonumbers {
+	public static void main(String[] args) {
+		int a=100;
+		int b=20;
+		System.out.println("before  swapping the num :" +a +"  " +b);
+		//logic - 1 using the third variable
+	/*	int t=a;
+		a=b;
+		b=t;*/
+		//logic - 2 not using the  third  variable using only + and -
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		//logic - 3 using * and / 
+		a=a*b;
+		b=a/b;
+		a=a/b;
+		System.out.println("after awapping the num :"+a+"  "+b);
+	}
+
+}
