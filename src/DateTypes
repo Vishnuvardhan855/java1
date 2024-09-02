@@ -1,0 +1,25 @@
+package vishnu;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a =10;
+		char ch = 'V';
+		byte by = 25;
+		float  f = 10.25f;
+		double d = 25.12354;
+		short s = 5;
+		long l = 8555042864L;
+		boolean b = true;
+		System.out.println("Integer: " + a);
+		System.out.println("Byte: " + by);
+		System.out.println("Float: " + f);
+		System.out.println("Double: " + d);
+		System.out.println("Short: " + s);
+		System.out.println("Long: " + l);
+		System.out.println("Boolean: " + b);
+		
+	}
+
+}
